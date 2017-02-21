@@ -85,6 +85,7 @@
     <finalName>webappstudents</finalName>
     <plugins>
       <plugin>
+
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -92,6 +93,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -104,24 +106,18 @@
               <configuration>
                 <artifactItems>
                   <artifactItem>
-                    <groupId>org.eclipse.jetty</groupId>
-                    <artifactId>jetty-runner</artifactId>
-                    <version>9.3.3.v20150827</version>
-                    <destFileName>jetty-runner.jar</destFileName>
+                    <groupId>com.github.jsimone</groupId>
+                    <artifactId>webapp-runner</artifactId>
+                    <version>8.5.11.2</version>
+                    <destFileName>webapp-runner.jar</destFileName>
                   </artifactItem>
                 </artifactItems>
               </configuration>
             </execution>
           </executions>
         </plugin>
-      <plugin>
-      <groupId>com.heroku.sdk</groupId>
-      <artifactId>heroku-maven-plugin</artifactId>
-      <version>1.1.3</version>
-    </plugin>
+      </plugins>
 
-
-    </plugins>
 
   </build>
 </project>
