@@ -7,7 +7,9 @@ import utils.Settings;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -58,15 +60,39 @@ public class StudentsDao {
         List<Student> students = new ArrayList<>();
         String name = "";
         String address = "";
+        String date = "";
         List<String> whereConditions = new ArrayList<String>();
+        Set<String> joinCondition = new HashSet<>();
+        if (searchService.getDobStart() != null && searchService.getDobEnd() != null) {
+            whereConditions.add(" (person.dob between '" + searchService.getDobStart() + "' and '" + searchService.getDobEnd() + "')");
+        }else if(searchService.getDobStart() != null){
+            whereConditions.add(" (date_part('year',person.dob) = date_part('year', timestamp'" + searchService.getDobStart() + "'))");
+        }
         if(StringUtils.isNotEmpty(searchService.getName())){
-            whereConditions.add("person.firstname LIKE '" + searchService.getName() + "%' or person.lasttname LIKE '" + searchService.getName() + "%'");
+            whereConditions.add("(person.firstname LIKE '" + searchService.getName() + "%' or person.lasttname LIKE '" + searchService.getName() + "%')");
         }
         if(StringUtils.isNoneEmpty(searchService.getAddress())){
-            whereConditions.add("address_id in(select address.address_id from address,person where address.address_id = person.address_id and address.address like '" + searchService.getAddress() + "%')");
+            whereConditions.add("address.address LIKE '" + searchService.getAddress() + "%'");
+            joinCondition.add("inner join address on person.address_id = address.address_id");
+        }
+        if (searchService.getGroup() != null) {
+            joinCondition.add("inner JOIN groupp on groupp.group_id = student.group_id");
+            whereConditions.add("groupp.group_id = " + searchService.getGroup() + "");
+        }
+        if (searchService.getTotalAverage() != null){
+            joinCondition.add("inner JOin avg_semester on avg_semester.student_id = student.student_id ");
+            whereConditions.add(" avg_semester.avg >= " + searchService.getTotalAverage() + " ");
+        }
+        if (searchService.getDiscipline() != null){
+            joinCondition.add("Inner join mark on mark.student_id = student.student_id inner join discipline on mark.discipline_id = discipline.discipline_id");
+            whereConditions.add("discipline.discipline_id = " + searchService.getDiscipline() + " ");
+        }
+        if (StringUtils.isNoneEmpty(searchService.getGender())){
+            whereConditions.add("(person.gender like '" + searchService.getGender() + "%')");
         }
         String whereClause = whereConditions.stream().collect(Collectors.joining(" AND "));
-        preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM student inner join person on student.student_id = person.student_id where " + whereClause);
+        String joinClause = joinCondition.stream().collect(Collectors.joining(" "));
+        preparedStatement = Settings.getConnection().prepareStatement("SELECT distinct ON (student.student_id) * FROM student INNER JOIN person ON student.student_id = person.student_id "+ joinClause + " WHERE " + whereClause);
         ResultSet eq = preparedStatement.executeQuery();
         while (eq.next()) {
             Student student = new Student();

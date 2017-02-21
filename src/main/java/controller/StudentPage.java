@@ -58,9 +58,16 @@ public class StudentPage extends HttpServlet {
             if (request.getParameter("person.name") != null) {
                 searchForm.setName(request.getParameter("person.name"));
             }
-            searchForm.setAddress(request.getParameter("person.address"));
-            if (!request.getParameter("person.dob").isEmpty()) {
-                searchForm.setDob(Date.valueOf(request.getParameter("person.dob")));
+            if (request.getParameter("person.address") != null){
+
+                searchForm.setAddress(request.getParameter("person.address"));
+            }
+
+            if (!request.getParameter("person.dobStart").isEmpty() && !request.getParameter("person.dobEnd").isEmpty()) {
+                searchForm.setDobStart(Date.valueOf(request.getParameter("person.dobStart")));
+                searchForm.setDobEnd(Date.valueOf(request.getParameter("person.dobEnd")));
+            }else if(!request.getParameter("person.dobStart").isEmpty()){
+                searchForm.setDobStart(Date.valueOf(request.getParameter("person.dobStart")));
             }
             if (request.getParameter("discipline") != null) {
                 searchForm.setDiscipline(Long.parseLong(request.getParameter("discipline")));
@@ -68,17 +75,25 @@ public class StudentPage extends HttpServlet {
             if (request.getParameter("groups") != null) {
                 searchForm.setGroup(Long.parseLong(request.getParameter("groups")));
             }
-            if (request.getParameter("total_average") != null) {
+            if (!request.getParameter("total_average").isEmpty()) {
                 searchForm.setTotalAverage(Double.parseDouble(request.getParameter("total_average")));
             }
-            if (request.getParameter("discipline_average") != null) {
-                searchForm.setTotalAverage(Double.valueOf(request.getParameter("discipline_average")));
+//            if (request.getParameter("discipline_average") != null) {
+//                searchForm.setTotalAverage(Double.valueOf(request.getParameter("discipline_average")));
+//            }
+            if (!request.getParameter("gender").isEmpty()){
+                searchForm.setGender(request.getParameter("gender"));
             }
-            searchForm.setGender(request.getParameter("gender"));
+
             try {
                 students = studentsDao.getAllStudentsByFilter(searchForm);
             } catch (SQLException e) {
-                e.printStackTrace();
+//                e.printStackTrace();
+                try {
+                    students = studentsDao.getAllStudents();
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                }
             }
             System.out.println("working");
         } else {

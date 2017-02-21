@@ -34,14 +34,23 @@
             </div>
         </div>
         <div class="form-group">
-            <label  class="col-md-4 control-label">Date of Birth : </label>
+            <label  class="col-md-4 control-label">Date of Birth(Start) : </label>
             <div class="col-md-6 inputGroupContainer">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input path="person.dob" id="" class="form-control"  type="date" name ="person.dob"/>
+                    <input path="person.dob" id="" class="form-control"  type="date" name ="person.dobStart"/>
                 </div>
             </div>
         </div>
+            <div class="form-group">
+                <label  class="col-md-4 control-label">Date of Birth(End) : </label>
+                <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input path="person.dob" id="" class="form-control"  type="date" name ="person.dobEnd"/>
+                    </div>
+                </div>
+            </div>
             <div class="form-group">
                 <label class="col-md-4 control-label">Group : </label>
                 <div class="col-md-6 selectContainer">
@@ -65,7 +74,7 @@
                     <div class="radio">
                         <label><input type="radio" path="person.gender" value="Male" name="gender">Male</label>
                         <label><input type="radio" path="person.gender" value="Female" name="gender">Female</label>
-                        <label><input type="radio" path="person.gender" value="Null" name="gender">All</label>
+                        <label><input type="radio" path="person.gender" value="" name="gender" checked>All</label>
                     </div>
                 </div>
             </div>
@@ -83,21 +92,21 @@
                     </div>
                 </div>
             </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label">Mark(s) : </label>
-                <div class="col-md-6 selectContainer">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>
-                        <input path="1mark" id="" value="" name="mark" class="form-control" name="discipline_average"/>
-                    </div>
-                </div>
-            </div>
+            <%--<div class="form-group">--%>
+                <%--<label class="col-md-4 control-label">Mark(s) : </label>--%>
+                <%--<div class="col-md-6 selectContainer">--%>
+                    <%--<div class="input-group">--%>
+                        <%--<span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>--%>
+                        <%--<input path="1mark" id="" value=""  class="form-control" name="discipline_average"/>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+            <%--</div>--%>
             <div class="form-group">
                 <label class="col-md-4 control-label">TotalAverage : </label>
                 <div class="col-md-6 selectContainer">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>
-                        <input path="1mark" id="" value="" name="mark" class="form-control" name="total_average"/>
+                        <input path="1mark" id="" value="" class="form-control" name="total_average"/>
                     </div>
                 </div>
             </div>
@@ -105,7 +114,7 @@
             <div class="form-group">
                 <div class="col-xs-4 col-xs-offset-2">
                     <button type="submit" value="submit"  name="search" class="btn btn-warning " >Search <span class="glyphicon glyphicon-search"></span></button>
-                    <button type="reset" value="reset"  name="reset" class="btn btn-warning " >Reset <span class="glyphicon glyphicon-refresh"></span></button>
+                    <a href="${pageContext.request.contextPath}/StudentPage" class="btn btn-warning ">Reset <span class="glyphicon glyphicon-refresh"></span></a>
                 </div>
             </div>
         </div>

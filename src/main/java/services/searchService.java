@@ -11,7 +11,8 @@ public class searchService {
 
     private String address;
     private String name;
-    private Date dob;
+    private Date dobStart;
+    private Date dobEnd;
     private Long group;
     private String gender;
     private Long discipline;
@@ -35,12 +36,20 @@ public class searchService {
         this.name = name;
     }
 
-    public Date getDob() {
-        return dob;
+    public Date getDobStart() {
+        return dobStart;
     }
 
-    public void setDob(Date dob) {
-        this.dob = dob;
+    public void setDobStart(Date dobStart) {
+        this.dobStart = dobStart;
+    }
+
+    public Date getDobEnd() {
+        return dobEnd;
+    }
+
+    public void setDobEnd(Date dobEnd) {
+        this.dobEnd = dobEnd;
     }
 
     public Long getGroup() {
