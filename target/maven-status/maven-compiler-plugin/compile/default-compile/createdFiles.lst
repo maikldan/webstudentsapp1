@@ -12,6 +12,7 @@ dao\MarksDao.class
 model\Mark.class
 controller\addStudentServlet.class
 dao\ProfesorDao.class
+services\searchService.class
 model\LibrarySubscription.class
 main.class
 dao\AddressDao.class
