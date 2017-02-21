@@ -8,13 +8,14 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:9.4.1212.jre7" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.0-b01" />
-          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: javax.el:javax.el-api:3.0.1-b04" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
           <element id="library" level="project" name="Maven: javax.ejb:ejb-api:3.0" />
-          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-runner:9.4.0.v20161208" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-plus:9.4.0.v20161208" />

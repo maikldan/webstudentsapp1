@@ -8,80 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c016f7-5b7a-452e-aee3-dbf41320d9c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/StudentPage.class" afterPath="$PROJECT_DIR$/target/classes/controller/StudentPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/addMark.class" afterPath="$PROJECT_DIR$/target/classes/controller/addMark.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/addStudentServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/addStudentServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/editStatus.class" afterPath="$PROJECT_DIR$/target/classes/controller/editStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/editStudent.class" afterPath="$PROJECT_DIR$/target/classes/controller/editStudent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/AddressDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/AddressDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/DisciplineDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/DisciplineDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/GroupDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/GroupDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/LibrarySubscriptionDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/LibrarySubscriptionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/MarksDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/MarksDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/PersonDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/PersonDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/PhoneDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/PhoneDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/PhoneTypeDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/PhoneTypeDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/ProfesorDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/ProfesorDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/StudentsDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/StudentsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main.class" afterPath="$PROJECT_DIR$/target/classes/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Address.class" afterPath="$PROJECT_DIR$/target/classes/model/Address.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Discipline.class" afterPath="$PROJECT_DIR$/target/classes/model/Discipline.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DisciplineAverage.class" afterPath="$PROJECT_DIR$/target/classes/model/DisciplineAverage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Group.class" afterPath="$PROJECT_DIR$/target/classes/model/Group.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/LibrarySubscription.class" afterPath="$PROJECT_DIR$/target/classes/model/LibrarySubscription.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Mark.class" afterPath="$PROJECT_DIR$/target/classes/model/Mark.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Person.class" afterPath="$PROJECT_DIR$/target/classes/model/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Phone.class" afterPath="$PROJECT_DIR$/target/classes/model/Phone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/PhoneType.class" afterPath="$PROJECT_DIR$/target/classes/model/PhoneType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Profesor.class" afterPath="$PROJECT_DIR$/target/classes/model/Profesor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Status.class" afterPath="$PROJECT_DIR$/target/classes/model/Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Student.class" afterPath="$PROJECT_DIR$/target/classes/model/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/services/searchService.class" afterPath="$PROJECT_DIR$/target/classes/services/searchService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/Settings.class" afterPath="$PROJECT_DIR$/target/classes/utils/Settings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents.war" afterPath="$PROJECT_DIR$/target/webappstudents.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/StudentPage.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/StudentPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addMark.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addMark.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addStudentServlet.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addStudentServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStatus.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStudent.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStudent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/AddressDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/AddressDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/DisciplineDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/DisciplineDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/GroupDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/GroupDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/LibrarySubscriptionDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/LibrarySubscriptionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/MarksDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/MarksDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PersonDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PersonDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneTypeDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneTypeDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/ProfesorDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/ProfesorDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/StudentsDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/StudentsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/main.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Address.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Address.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Discipline.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Discipline.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/DisciplineAverage.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/DisciplineAverage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Group.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Group.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/LibrarySubscription.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/LibrarySubscription.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Mark.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Mark.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Person.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Phone.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Phone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/PhoneType.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/PhoneType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Profesor.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Profesor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Status.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Student.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/services/searchService.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/services/searchService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/utils/Settings.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/utils/Settings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webappstudents_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webappstudents_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile.txt" afterPath="$PROJECT_DIR$/Procfile.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/StudentPage.java" afterPath="$PROJECT_DIR$/src/main/java/controller/StudentPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/addMark.java" afterPath="$PROJECT_DIR$/src/main/java/controller/addMark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/editStudent.java" afterPath="$PROJECT_DIR$/src/main/java/controller/editStudent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/StudentsDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/StudentsDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webappstudents.iml" afterPath="$PROJECT_DIR$/webappstudents.iml" />
     </list>
@@ -120,8 +51,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="-95">
+              <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -262,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/main/java/services/searchService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Settings.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" />
@@ -273,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/editStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1646,16 +1577,16 @@
       <workItem from="1487312164843" duration="503000" />
       <workItem from="1487312702357" duration="23602000" />
       <workItem from="1487570988361" duration="14659000" />
-      <workItem from="1487657741160" duration="5002000" />
+      <workItem from="1487657741160" duration="5665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220259000" />
+    <option name="totallyTimeSpent" value="220922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1947" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1681,7 +1612,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3180363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="377" width="1923" height="302" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17918177" sideWeight="0.7120501" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17918177" sideWeight="0.7120501" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17918177" sideWeight="0.28794992" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -2217,8 +2148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="-95">
+          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
           <folding />
         </state>
       </provider>
