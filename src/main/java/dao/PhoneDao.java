@@ -21,7 +21,7 @@ public class PhoneDao {
     }
 
     public List<Phone> getAllPhones() throws SQLException {
-        List<Phone> phones = new ArrayList<>();
+        List<Phone> phones = new ArrayList<Phone>();
         PhoneTypeDao phoneTypeDao = new PhoneTypeDao();
         preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM phone inner join phone_type on phone.phonetype_id = phone_type.phonetype_id");
         ResultSet eq = preparedStatement.executeQuery();
@@ -48,7 +48,7 @@ public class PhoneDao {
         return phone;
     }
     public List<Phone> getStudentPhonesById(Long person_id) throws SQLException {
-        List<Phone> phones = new ArrayList<>();
+        List<Phone> phones = new ArrayList<Phone>();
         PhoneTypeDao phoneTypeDao = new PhoneTypeDao();
         preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM phone where person_id = ?");
         preparedStatement.setLong(1, person_id);

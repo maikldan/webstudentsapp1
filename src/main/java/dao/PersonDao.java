@@ -59,7 +59,7 @@ public class PersonDao {
 
         }
         person.setId(keyId);
-        ArrayList<Phone> phones = new ArrayList<>();
+        ArrayList<Phone> phones = new ArrayList<Phone>();
         phones = (ArrayList<Phone>) person.getPhone();
         for (int i = 0; i < phones.size(); i++) {
             phones.get(i).setPerson(person);
@@ -84,7 +84,7 @@ public class PersonDao {
         preparedStatement.executeUpdate();
         ResultSet rs = preparedStatement.getGeneratedKeys();
 
-        ArrayList<Phone> phones = new ArrayList<>();
+        ArrayList<Phone> phones = new ArrayList<Phone>();
         phones = (ArrayList<Phone>) person.getPhone();
         for (int i = 0; i < phones.size(); i++) {
             phoneDao.update(phones.get(i));

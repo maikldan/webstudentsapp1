@@ -37,7 +37,7 @@ public class editStudent extends HttpServlet {
         String[] phoneNumbers = request.getParameterMap().get("person.phone.number[]");
         String[] phoneTypes = request.getParameterMap().get("phone.phoneType[]");
 
-        ArrayList<Phone> phones = new ArrayList<>();
+        ArrayList<Phone> phones = new ArrayList<Phone>();
 
 
         for (int i = 0; i < idPhone.length; i++) {
@@ -119,12 +119,12 @@ public class editStudent extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Person person = new Person();
         PhoneTypeDao phoneTypeDao = new PhoneTypeDao();
-        List<PhoneType> phonesType = new ArrayList<>();
+        List<PhoneType> phonesType = new ArrayList<PhoneType>();
         PhoneDao phoneDao = new PhoneDao();
 
-        List<Phone> phones = new ArrayList<>();
+        List<Phone> phones = new ArrayList<Phone>();
         GroupDao groupDao = new GroupDao();
-        List<Group> groups = new ArrayList<>();
+        List<Group> groups = new ArrayList<Group>();
         StudentsDao studentsDao = new StudentsDao();
         PersonDao personDao = new PersonDao();
         person.getId();

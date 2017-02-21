@@ -20,7 +20,7 @@ public class GroupDao {
     public GroupDao() {}
 
     public List<Group> getAllGroups() throws SQLException {
-        List<Group> groups = new ArrayList<>();
+        List<Group> groups = new ArrayList<Group>();
         preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM groupp");
         ResultSet eq = preparedStatement.executeQuery();
         while (eq.next()) {

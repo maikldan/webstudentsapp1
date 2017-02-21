@@ -56,9 +56,9 @@ public class addMark extends HttpServlet {
         StudentsDao studentsDao = new StudentsDao();
         int id = Integer.parseInt(request.getParameter("id"));
         student.setId((long) id);
-        List<Profesor> profesors = new ArrayList<>();
+        List<Profesor> profesors = new ArrayList<Profesor>();
         DisciplineDao disciplineDao = new DisciplineDao();
-        List<Discipline> disciplines = new ArrayList<>();
+        List<Discipline> disciplines = new ArrayList<Discipline>();
         try {
             student = studentsDao.getById((long) id);
             disciplines = disciplineDao.getAllDisciplines();

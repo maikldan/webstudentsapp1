@@ -19,7 +19,7 @@ public class PhoneTypeDao {
         public PhoneTypeDao(){}
 
      public List<PhoneType> getAll() throws SQLException {
-         List<PhoneType> phones = new ArrayList<>();
+         List<PhoneType> phones = new ArrayList<PhoneType>();
 
          preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM phone_type");
          ResultSet eq = preparedStatement.executeQuery();

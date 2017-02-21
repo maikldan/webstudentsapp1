@@ -46,7 +46,7 @@ public class addStudentServlet extends HttpServlet {
         }
         phone.setNumber(request.getParameter("person.phone.number"));
         phone.setPhoneType(phoneType);
-        ArrayList<Phone> phones = new ArrayList<>();
+        ArrayList<Phone> phones = new ArrayList<Phone>();
         phones.add(phone);
         person.setPhone(phones);
         Group group = new Group();
@@ -97,9 +97,9 @@ public class addStudentServlet extends HttpServlet {
 
         Phone phone = new Phone();
         PhoneTypeDao phoneTypeDao = new PhoneTypeDao();
-        List<PhoneType> phonesType = new ArrayList<>();
+        List<PhoneType> phonesType = new ArrayList<PhoneType>();
         GroupDao groupDao = new GroupDao();
-        List<Group> groups = new ArrayList<>();
+        List<Group> groups = new ArrayList<Group>();
 
         try {
             phonesType= phoneTypeDao.getAll();

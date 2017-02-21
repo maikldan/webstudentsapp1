@@ -1,13 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webappstudents:war" />
+      <artifact name="webappstudents:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05c016f7-5b7a-452e-aee3-dbf41320d9c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/jetty-runner.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/StudentPage.class" afterPath="$PROJECT_DIR$/target/classes/controller/StudentPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/addMark.class" afterPath="$PROJECT_DIR$/target/classes/controller/addMark.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/addStudentServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/addStudentServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/editStatus.class" afterPath="$PROJECT_DIR$/target/classes/controller/editStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/editStudent.class" afterPath="$PROJECT_DIR$/target/classes/controller/editStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/AddressDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/AddressDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/DisciplineDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/DisciplineDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/GroupDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/GroupDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/LibrarySubscriptionDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/LibrarySubscriptionDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/MarksDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/MarksDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/PersonDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/PersonDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/PhoneDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/PhoneDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/PhoneTypeDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/PhoneTypeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/ProfesorDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/ProfesorDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/StudentsDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/StudentsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main.class" afterPath="$PROJECT_DIR$/target/classes/main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Address.class" afterPath="$PROJECT_DIR$/target/classes/model/Address.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Discipline.class" afterPath="$PROJECT_DIR$/target/classes/model/Discipline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DisciplineAverage.class" afterPath="$PROJECT_DIR$/target/classes/model/DisciplineAverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Group.class" afterPath="$PROJECT_DIR$/target/classes/model/Group.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/LibrarySubscription.class" afterPath="$PROJECT_DIR$/target/classes/model/LibrarySubscription.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Mark.class" afterPath="$PROJECT_DIR$/target/classes/model/Mark.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Person.class" afterPath="$PROJECT_DIR$/target/classes/model/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Phone.class" afterPath="$PROJECT_DIR$/target/classes/model/Phone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/PhoneType.class" afterPath="$PROJECT_DIR$/target/classes/model/PhoneType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Profesor.class" afterPath="$PROJECT_DIR$/target/classes/model/Profesor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Status.class" afterPath="$PROJECT_DIR$/target/classes/model/Status.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Student.class" afterPath="$PROJECT_DIR$/target/classes/model/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/services/searchService.class" afterPath="$PROJECT_DIR$/target/classes/services/searchService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/Settings.class" afterPath="$PROJECT_DIR$/target/classes/utils/Settings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents.war" afterPath="$PROJECT_DIR$/target/webappstudents.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/StudentPage.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/StudentPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addMark.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addMark.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addStudentServlet.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/addStudentServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStatus.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStudent.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/controller/editStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/AddressDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/AddressDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/DisciplineDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/DisciplineDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/GroupDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/GroupDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/LibrarySubscriptionDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/LibrarySubscriptionDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/MarksDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/MarksDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PersonDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PersonDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneTypeDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/PhoneTypeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/ProfesorDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/ProfesorDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/StudentsDao.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/dao/StudentsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/main.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Address.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Address.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Discipline.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Discipline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/DisciplineAverage.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/DisciplineAverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Group.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Group.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/LibrarySubscription.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/LibrarySubscription.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Mark.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Mark.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Person.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Phone.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Phone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/PhoneType.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/PhoneType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Profesor.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Profesor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Status.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Status.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Student.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/model/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/services/searchService.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/services/searchService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/utils/Settings.class" afterPath="$PROJECT_DIR$/target/webappstudents/WEB-INF/classes/utils/Settings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/StudentPage.java" afterPath="$PROJECT_DIR$/src/main/java/controller/StudentPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/addMark.java" afterPath="$PROJECT_DIR$/src/main/java/controller/addMark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/editStudent.java" afterPath="$PROJECT_DIR$/src/main/java/controller/editStudent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/StudentsDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/StudentsDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webappstudents.iml" afterPath="$PROJECT_DIR$/webappstudents.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,23 +103,87 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="addStudentServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+              <folding>
+                <element signature="e#1821#1828#0" expanded="true" />
+                <element signature="e#4018#4029#0" expanded="true" />
+                <element signature="e#4119#4126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addStudentServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java">
+      <file leaf-file-name="PhoneTypeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+              <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#511#522#0" expanded="true" />
+                <marker date="1487664740708" expanded="true" signature="599:623" ph="SELECT * FRO... phone_type" />
+                <marker date="1487664740708" expanded="true" signature="1081:1128" ph="SELECT * FRO... phone_type" />
+                <marker date="1487664740708" expanded="true" signature="1614:1654" ph="insert into phone_type... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/PersonDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+              <folding>
+                <element signature="e#2485#2492#0" expanded="true" />
+                <element signature="e#3708#3715#0" expanded="true" />
+                <marker date="1487664883710" expanded="true" signature="762:864" ph="Select * fro... student" />
+                <marker date="1487664883710" expanded="true" signature="1368:1513" ph="insert into person... " />
+                <marker date="1487664883710" expanded="true" signature="2960:3064" ph="update perso... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addMark.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+              <folding>
+                <element signature="e#2193#2203#0" expanded="true" />
+                <element signature="e#2318#2330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+              <folding>
+                <element signature="e#502#509#0" expanded="true" />
+                <element signature="e#1860#1867#0" expanded="true" />
+                <marker date="1487664941925" expanded="true" signature="640:729" ph="SELECT * FRO... phone" />
+                <marker date="1487664941925" expanded="true" signature="1300:1348" ph="SELECT * FRO... phone" />
+                <marker date="1487664941925" expanded="true" signature="1998:2037" ph="SELECT * FRO... phone" />
+                <marker date="1487664941925" expanded="true" signature="2680:2745" ph="insert into phone... " />
+                <marker date="1487664941925" expanded="true" signature="3367:3432" ph="update phone... " />
               </folding>
             </state>
           </provider>
@@ -102,37 +242,37 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Phone.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/editStutus.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/LibrarySubscription.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AddressDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/DisciplineDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/target/webappstudents/resources/js/main.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/addMark.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/addMark.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/editStatus.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/MarksDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/model/Student.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/editStudent.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/addstudent.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/editStudent.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/LibrarySubscriptionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/editStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/searchService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/StudentsDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/StudentPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Settings.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/StudentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/StudentsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/addMark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/editStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/PhoneDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java" />
       </list>
     </option>
   </component>
@@ -157,7 +297,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="webappstudents Maven Webapp" />
+          <option name="myItemId" value="webappstudents" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -171,7 +311,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="webappstudents Maven Webapp" />
+          <option name="myItemId" value="webappstudents" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -181,7 +321,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="webappstudents Maven Webapp" />
+          <option name="myItemId" value="webappstudents" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -244,15 +384,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webappstudents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webappstudents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="dependency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,308 +417,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1798,23 +1646,23 @@
       <workItem from="1487312164843" duration="503000" />
       <workItem from="1487312702357" duration="23602000" />
       <workItem from="1487570988361" duration="14659000" />
-      <workItem from="1487657741160" duration="4192000" />
+      <workItem from="1487657741160" duration="5002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219449000" />
+    <option name="totallyTimeSpent" value="220259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1947" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123770066" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123770066" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2796158" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2002,36 +1850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <marker date="1486991559834" expanded="true" signature="590:614" ph="SELECT * FRO... phone_type" />
-            <marker date="1486991559834" expanded="true" signature="1072:1119" ph="SELECT * FRO... phone_type" />
-            <marker date="1486991559834" expanded="true" signature="1605:1645" ph="insert into phone_type... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Mark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-          <folding>
-            <marker date="1487162186497" expanded="true" signature="635:724" ph="SELECT * FRO... phone" />
-            <marker date="1487162186497" expanded="true" signature="1295:1343" ph="SELECT * FRO... phone" />
-            <marker date="1487162186497" expanded="true" signature="1988:2027" ph="SELECT * FRO... phone" />
-            <marker date="1487162186497" expanded="true" signature="2670:2735" ph="insert into phone... " />
-            <marker date="1487162186497" expanded="true" signature="3357:3422" ph="update phone... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2065,17 +1887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1487165139819" expanded="true" signature="604:681" ph="SELECT * FRO... profesor" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.jar!/org/apache/commons/fileupload/FileItem.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2087,14 +1898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="2167" column="25" lean-forward="false" selection-start-line="2167" selection-start-column="14" selection-end-line="2167" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/editStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2157,14 +1960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="63" column="60" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/addMark.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -2190,19 +1985,6 @@
             <marker date="1487241580038" expanded="true" signature="2279:2318" ph="SELECT * FRO... mark" />
             <marker date="1487241580038" expanded="true" signature="3342:3389" ph="SELECT * FRO... average_mark" />
             <marker date="1487241580038" expanded="true" signature="4262:4357" ph="insert into mark... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GroupDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="64" column="90" lean-forward="false" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
-          <folding>
-            <marker date="1487069947448" expanded="true" signature="551:571" ph="SELECT * FRO... groupp" />
-            <marker date="1487069947448" expanded="true" signature="1049:1088" ph="SELECT * FRO... groupp" />
-            <marker date="1487069947448" expanded="true" signature="1540:1576" ph="insert into groupp... " />
-            <marker date="1487069947448" expanded="true" signature="2028:2074" ph="update group... " />
           </folding>
         </state>
       </provider>
@@ -2252,18 +2034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="59" column="9" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="59" selection-end-column="9" />
-          <folding>
-            <marker date="1487145898200" expanded="true" signature="762:864" ph="Select * fro... student" />
-            <marker date="1487145898200" expanded="true" signature="1368:1513" ph="insert into person... " />
-            <marker date="1487145898200" expanded="true" signature="2955:3059" ph="update perso... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/editStatus.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -2280,35 +2050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/StudentsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <marker date="1487586156435" expanded="true" signature="926:1007" ph="SELECT * FRO... student" />
-            <marker date="1487586156435" expanded="true" signature="5057:5129" ph="SELECT * FRO... student" />
-            <marker date="1487586156435" expanded="true" signature="5057:5196" ph="SELECT disti... " />
-            <marker date="1487586156435" expanded="true" signature="5057:5197" ph="SELECT * FRO... student" />
-            <marker date="1487586156435" expanded="true" signature="6973:7083" ph="SELECT * FRO... student" />
-            <marker date="1487586156435" expanded="true" signature="8201:8284" ph="insert into student... " />
-            <marker date="1487586156435" expanded="true" signature="8884:8963" ph="update stude... " />
-            <marker date="1487586156435" expanded="true" signature="9576:9633" ph="update stude... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="15" column="292" lean-forward="false" selection-start-line="15" selection-start-column="292" selection-end-line="15" selection-end-column="292" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StudentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="91" column="17" lean-forward="false" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -2335,20 +2080,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#474#481#0" expanded="true" />
+            <marker date="1487664732419" expanded="true" signature="556:576" ph="SELECT * FRO... groupp" />
+            <marker date="1487664732419" expanded="true" signature="1054:1093" ph="SELECT * FRO... groupp" />
+            <marker date="1487664732419" expanded="true" signature="1545:1581" ph="insert into groupp... " />
+            <marker date="1487664732419" expanded="true" signature="2033:2079" ph="update group... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#511#522#0" expanded="true" />
+            <marker date="1487664740708" expanded="true" signature="599:623" ph="SELECT * FRO... phone_type" />
+            <marker date="1487664740708" expanded="true" signature="1081:1128" ph="SELECT * FRO... phone_type" />
+            <marker date="1487664740708" expanded="true" signature="1614:1654" ph="insert into phone_type... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProfesorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="e#527#537#0" expanded="true" />
+            <marker date="1487664786636" expanded="true" signature="612:689" ph="SELECT * FRO... profesor" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StudentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding>
+            <element signature="e#1644#1656#0" expanded="true" />
+            <element signature="e#1785#1792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/StudentsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding>
+            <element signature="e#849#858#0" expanded="true" />
+            <element signature="e#2698#2707#0" expanded="true" />
+            <element signature="e#2903#2911#0" expanded="true" />
+            <marker date="1487664837367" expanded="true" signature="933:1014" ph="SELECT * FRO... student" />
+            <marker date="1487664837367" expanded="true" signature="5077:5149" ph="SELECT * FRO... student" />
+            <marker date="1487664837367" expanded="true" signature="5077:5216" ph="SELECT disti... " />
+            <marker date="1487664837367" expanded="true" signature="5077:5217" ph="SELECT * FRO... student" />
+            <marker date="1487664837367" expanded="true" signature="6993:7103" ph="SELECT * FRO... student" />
+            <marker date="1487664837367" expanded="true" signature="8221:8304" ph="insert into student... " />
+            <marker date="1487664837367" expanded="true" signature="8904:8983" ph="update stude... " />
+            <marker date="1487664837367" expanded="true" signature="9596:9653" ph="update stude... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding>
+            <element signature="e#2485#2492#0" expanded="true" />
+            <element signature="e#3708#3715#0" expanded="true" />
+            <marker date="1487664883710" expanded="true" signature="762:864" ph="Select * fro... student" />
+            <marker date="1487664883710" expanded="true" signature="1368:1513" ph="insert into person... " />
+            <marker date="1487664883710" expanded="true" signature="2960:3064" ph="update perso... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/editStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="126" column="50" lean-forward="false" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
+          <folding>
+            <element signature="e#1616#1623#0" expanded="true" />
+            <element signature="e#4841#4852#0" expanded="true" />
+            <element signature="e#4943#4950#0" expanded="true" />
+            <element signature="e#5040#5047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+          <folding>
+            <element signature="e#2193#2203#0" expanded="true" />
+            <element signature="e#2318#2330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <element signature="e#502#509#0" expanded="true" />
+            <element signature="e#1860#1867#0" expanded="true" />
+            <marker date="1487664941925" expanded="true" signature="640:729" ph="SELECT * FRO... phone" />
+            <marker date="1487664941925" expanded="true" signature="1300:1348" ph="SELECT * FRO... phone" />
+            <marker date="1487664941925" expanded="true" signature="1998:2037" ph="SELECT * FRO... phone" />
+            <marker date="1487664941925" expanded="true" signature="2680:2745" ph="insert into phone... " />
+            <marker date="1487664941925" expanded="true" signature="3367:3432" ph="update phone... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+          <folding>
+            <element signature="e#1821#1828#0" expanded="true" />
+            <element signature="e#4018#4029#0" expanded="true" />
+            <element signature="e#4119#4126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>

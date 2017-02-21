@@ -48,10 +48,10 @@ public class StudentPage extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DisciplineDao disciplineDao = new DisciplineDao();
-        List<Discipline> disciplines = new ArrayList<>();
+        List<Discipline> disciplines = new ArrayList<Discipline>();
         List<Student> students = null;
         GroupDao groupDao = new GroupDao();
-        List<Group> groups = new ArrayList<>();
+        List<Group> groups = new ArrayList<Group>();
         StudentsDao studentsDao = new StudentsDao();
         if (request.getParameter("search") != null) {
             searchService searchForm = new searchService();

@@ -18,7 +18,7 @@ public class ProfesorDao {
     PreparedStatement preparedStatement = null;
     AddressDao addressDao = new AddressDao();
     public List<Profesor> getAll() throws SQLException {
-        List<Profesor> profesors = new ArrayList<>();
+        List<Profesor> profesors = new ArrayList<Profesor>();
         preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM profesor,person where person.profesor_id = profesor.profesor_id");
         ResultSet eq = preparedStatement.executeQuery();
         while(eq.next()) {

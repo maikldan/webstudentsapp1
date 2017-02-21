@@ -29,7 +29,7 @@ public class StudentsDao {
     }
 
     public List<Student> getAllStudents() throws SQLException {
-        List<Student> students = new ArrayList<>();
+        List<Student> students = new ArrayList<Student>();
         preparedStatement = Settings.getConnection().prepareStatement("SELECT * FROM student inner join person on student.student_id = person.student_id");
         ResultSet eq = preparedStatement.executeQuery();
         while (eq.next()) {
@@ -57,12 +57,12 @@ public class StudentsDao {
 
     }
     public List<Student> getAllStudentsByFilter(searchService searchService) throws SQLException {
-        List<Student> students = new ArrayList<>();
+        List<Student> students = new ArrayList<Student>();
         String name = "";
         String address = "";
         String date = "";
         List<String> whereConditions = new ArrayList<String>();
-        Set<String> joinCondition = new HashSet<>();
+        Set<String> joinCondition = new HashSet<String>();
         if (searchService.getDobStart() != null && searchService.getDobEnd() != null) {
             whereConditions.add(" (person.dob between '" + searchService.getDobStart() + "' and '" + searchService.getDobEnd() + "')");
         }else if(searchService.getDobStart() != null){
