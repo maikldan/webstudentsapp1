@@ -3,19 +3,10 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="webappstudents:war" />
-      <artifact name="webappstudents:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c016f7-5b7a-452e-aee3-dbf41320d9c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webappstudents.war" afterPath="$PROJECT_DIR$/target/webappstudents.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webappstudents_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webappstudents_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile.txt" afterPath="$PROJECT_DIR$/Procfile.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webappstudents.iml" afterPath="$PROJECT_DIR$/webappstudents.iml" />
-    </list>
+    <list default="true" id="05c016f7-5b7a-452e-aee3-dbf41320d9c2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,28 +22,33 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="addStudentServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="0">
               <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
-              <folding>
-                <element signature="e#1821#1828#0" expanded="true" />
-                <element signature="e#4018#4029#0" expanded="true" />
-                <element signature="e#4119#4126#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="292" lean-forward="false" selection-start-line="15" selection-start-column="292" selection-end-line="15" selection-end-column="292" />
               <folding />
             </state>
           </provider>
@@ -61,14 +57,9 @@
       <file leaf-file-name="PhoneTypeDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="204">
               <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding>
-                <element signature="e#511#522#0" expanded="true" />
-                <marker date="1487664740708" expanded="true" signature="599:623" ph="SELECT * FRO... phone_type" />
-                <marker date="1487664740708" expanded="true" signature="1081:1128" ph="SELECT * FRO... phone_type" />
-                <marker date="1487664740708" expanded="true" signature="1614:1654" ph="insert into phone_type... " />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,13 +69,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1275">
               <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
-              <folding>
-                <element signature="e#2485#2492#0" expanded="true" />
-                <element signature="e#3708#3715#0" expanded="true" />
-                <marker date="1487664883710" expanded="true" signature="762:864" ph="Select * fro... student" />
-                <marker date="1487664883710" expanded="true" signature="1368:1513" ph="insert into person... " />
-                <marker date="1487664883710" expanded="true" signature="2960:3064" ph="update perso... " />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,12 +77,9 @@
       <file leaf-file-name="addMark.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="697">
               <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
-              <folding>
-                <element signature="e#2193#2203#0" expanded="true" />
-                <element signature="e#2318#2330#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,17 +87,9 @@
       <file leaf-file-name="PhoneDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="697">
               <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-              <folding>
-                <element signature="e#502#509#0" expanded="true" />
-                <element signature="e#1860#1867#0" expanded="true" />
-                <marker date="1487664941925" expanded="true" signature="640:729" ph="SELECT * FRO... phone" />
-                <marker date="1487664941925" expanded="true" signature="1300:1348" ph="SELECT * FRO... phone" />
-                <marker date="1487664941925" expanded="true" signature="1998:2037" ph="SELECT * FRO... phone" />
-                <marker date="1487664941925" expanded="true" signature="2680:2745" ph="insert into phone... " />
-                <marker date="1487664941925" expanded="true" signature="3367:3432" ph="update phone... " />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,6 +187,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -222,44 +203,18 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="webappstudents" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="webappstudents" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="webappstudents" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="webappstudents" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="webappstudents" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
@@ -267,6 +222,7 @@
     <option name="width" value="1947" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -283,77 +239,68 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dependency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webappstudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudentsapp1-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudentsapp1-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -364,20 +311,33 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="webappstudents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Unnamed">
-    <configuration default="false" name="Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="utils.Connect" />
       <option name="VM_PARAMETERS" />
@@ -390,11 +350,113 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="webappstudents" />
       <envs />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="webappstudents:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_webstudentsapp1-master_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52731" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webappstudents:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="heroku:deploy-war" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
-    <configuration default="false" name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -403,16 +465,84 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="webappstudents" />
+      <module name="" />
       <envs />
-      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -467,29 +597,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -638,36 +745,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -771,54 +848,9 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
       <envs />
       <method />
     </configuration>
@@ -835,713 +867,23 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.4.1.v20170120" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/StudentPage" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="webappstudents:war exploded">
-          <settings DEPLOYMENT_METHOD="contexts">
-            <option name="defaultContextRoot" value="false" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <data>
-          <option name="configFiles">
-            <list>
-              <JettyConfigFile>
-                <option name="active" value="true" />
-                <option name="path" value="modules\jmx.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\alpn.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\annotations.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\cdi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\client.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\console-capture.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\continuation.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debug.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debuglog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\deploy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ext.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\fcgi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\flight-recorder.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud-datastore.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gzip.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\hawtio.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\home-base-warning.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\https.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ipaccess.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaas.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jamon.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaspi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jcl-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jminix.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jmx-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jndi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jolokia.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jvm.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-access.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jetty.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\lowresources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\plus.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol-ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\quickstart.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\requestlog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\resources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-compactpath.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-customizer.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\security.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\server.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlet.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlets.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-hash.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-null.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-cache.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-file.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-embedded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-jdbc.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-mongo.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\sessions.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\setuid.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-simple-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\spring.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\stats.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\threadlimit.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-secure.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\webapp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\websocket.mod" />
-              </JettyConfigFile>
-            </list>
-          </option>
-          <option name="myConfigFiles">
-            <list>
-              <JettyConfigFile>
-                <option name="active" value="true" />
-                <option name="path" value="modules\jmx.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\alpn.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\annotations.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\apache-jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\cdi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\client.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\console-capture.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\continuation.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debug.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\debuglog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\deploy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ext.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\fcgi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\flight-recorder.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud-datastore.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\gzip.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\hawtio.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\home-base-warning.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\https.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ipaccess.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaas.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jamon.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jaspi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jcl-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jminix.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jmx-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jndi.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jolokia.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jsp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jstl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jul-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\jvm.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\log4j2-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-access.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logback-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jetty.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\logging-slf4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\lowresources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\plus.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol-ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\proxy.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\quickstart.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\requestlog.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\resources.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-compactpath.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite-customizer.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\rewrite.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\security.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\server.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlet.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\servlets.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-hash.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-cache-null.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-cache.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-file.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-gcloud.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-embedded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-infinispan-remote.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-jdbc.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\session-store-mongo.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\sessions.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\setuid.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-api.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-jul.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-log4j2.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-logback.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\slf4j-simple-impl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\spring.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\ssl.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\stats.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\threadlimit.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-forwarded.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-http2c.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-proxy-protocol.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket-secure.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\unixsocket.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\webapp.mod" />
-              </JettyConfigFile>
-              <JettyConfigFile>
-                <option name="path" value="modules\websocket.mod" />
-              </JettyConfigFile>
-            </list>
-          </option>
-        </data>
-      </server-settings>
-      <predefined_log_file id="Jetty" enabled="true" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="" RunnerId="JRebel Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="" RunnerId="JRebel Executor">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="webappstudents:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="heroku:deploy-war" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="webappstudents" />
+      <envs />
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Jetty Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
       <item index="2" class="java.lang.String" itemvalue="Application.Connect" />
       <item index="3" class="java.lang.String" itemvalue="Application.main" />
     </list>
@@ -1578,57 +920,57 @@
       <workItem from="1487312702357" duration="23602000" />
       <workItem from="1487570988361" duration="14659000" />
       <workItem from="1487657741160" duration="5665000" />
+      <workItem from="1511877718977" duration="2023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220922000" />
+    <option name="totallyTimeSpent" value="222945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1947" height="1047" extended-state="0" />
-    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123770066" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2796158" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32772166" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123476416" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40516275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="377" width="1923" height="302" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3180363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="377" width="1923" height="302" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17918177" sideWeight="0.7120501" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17918177" sideWeight="0.28794992" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12824589" sideWeight="0.78559464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12824589" sideWeight="0.21440536" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2796158" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06666667" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1721,21 +1063,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myservlet/MyServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Connect.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myservlet/mariusServlet.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2499">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/taglibs/standard/1.1.2/standard-1.1.2.jar!/META-INF/c.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="158" column="2" lean-forward="false" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld" />
+    <entry file="jar://$MAVEN_REPOSITORY$/taglibs/standard/1.1.2/standard-1.1.2.jar!/META-INF/c.tld" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1747,9 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-294">
           <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-          <folding>
-            <element signature="e#2585#2592#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1803,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2822">
@@ -1818,20 +1136,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.jar!/org/apache/commons/fileupload/FileItem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2167" column="25" lean-forward="false" selection-start-line="2167" selection-start-column="14" selection-end-line="2167" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.jar!/org/apache/commons/fileupload/FileItem.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/image/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1874,13 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-          <folding>
-            <marker date="1487064946705" expanded="true" signature="584:605" ph="SELECT * FRO... address" />
-            <marker date="1487064946705" expanded="true" signature="1215:1257" ph="SELECT * FRO... address" />
-            <marker date="1487064946705" expanded="true" signature="1799:1858" ph="insert into address... " />
-            <marker date="1487064946705" expanded="true" signature="2446:2521" ph="update addre... " />
-            <marker date="1487064946705" expanded="true" signature="3105:3145" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1910,13 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="91" column="35" lean-forward="false" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
-          <folding>
-            <marker date="1487241580038" expanded="true" signature="672:690" ph="SELECT * FRO... mark" />
-            <marker date="1487241580038" expanded="true" signature="1468:1486" ph="SELECT * FRO... mark" />
-            <marker date="1487241580038" expanded="true" signature="2279:2318" ph="SELECT * FRO... mark" />
-            <marker date="1487241580038" expanded="true" signature="3342:3389" ph="SELECT * FRO... average_mark" />
-            <marker date="1487241580038" expanded="true" signature="4262:4357" ph="insert into mark... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1924,7 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1932,13 +1223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <marker date="1487323039711" expanded="true" signature="610:644" ph="SELECT * FRO... library_subscription" />
-            <marker date="1487323039711" expanded="true" signature="1462:1525" ph="SELECT * FRO... library_subscription" />
-            <marker date="1487323039711" expanded="true" signature="2372:2448" ph="insert into library_subscription... " />
-            <marker date="1487323039711" expanded="true" signature="3126:3226" ph="update libra... " />
-            <marker date="1487323039711" expanded="true" signature="3779:3840" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1981,22 +1265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="292" lean-forward="false" selection-start-line="15" selection-start-column="292" selection-end-line="15" selection-end-column="292" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/searchService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2004,10 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <marker date="1487164740448" expanded="true" signature="594:618" ph="SELECT * FRO... discipline" />
-            <marker date="1487164740448" expanded="true" signature="1424:1472" ph="SELECT * FRO... discipline" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2015,26 +1283,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="e#474#481#0" expanded="true" />
-            <marker date="1487664732419" expanded="true" signature="556:576" ph="SELECT * FRO... groupp" />
-            <marker date="1487664732419" expanded="true" signature="1054:1093" ph="SELECT * FRO... groupp" />
-            <marker date="1487664732419" expanded="true" signature="1545:1581" ph="insert into groupp... " />
-            <marker date="1487664732419" expanded="true" signature="2033:2079" ph="update group... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneTypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="204">
           <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="e#511#522#0" expanded="true" />
-            <marker date="1487664740708" expanded="true" signature="599:623" ph="SELECT * FRO... phone_type" />
-            <marker date="1487664740708" expanded="true" signature="1081:1128" ph="SELECT * FRO... phone_type" />
-            <marker date="1487664740708" expanded="true" signature="1614:1654" ph="insert into phone_type... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2042,10 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#527#537#0" expanded="true" />
-            <marker date="1487664786636" expanded="true" signature="612:689" ph="SELECT * FRO... profesor" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2053,10 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
-          <folding>
-            <element signature="e#1644#1656#0" expanded="true" />
-            <element signature="e#1785#1792#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2064,19 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
-          <folding>
-            <element signature="e#849#858#0" expanded="true" />
-            <element signature="e#2698#2707#0" expanded="true" />
-            <element signature="e#2903#2911#0" expanded="true" />
-            <marker date="1487664837367" expanded="true" signature="933:1014" ph="SELECT * FRO... student" />
-            <marker date="1487664837367" expanded="true" signature="5077:5149" ph="SELECT * FRO... student" />
-            <marker date="1487664837367" expanded="true" signature="5077:5216" ph="SELECT disti... " />
-            <marker date="1487664837367" expanded="true" signature="5077:5217" ph="SELECT * FRO... student" />
-            <marker date="1487664837367" expanded="true" signature="6993:7103" ph="SELECT * FRO... student" />
-            <marker date="1487664837367" expanded="true" signature="8221:8304" ph="insert into student... " />
-            <marker date="1487664837367" expanded="true" signature="8904:8983" ph="update stude... " />
-            <marker date="1487664837367" expanded="true" signature="9596:9653" ph="update stude... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2084,13 +1319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
-          <folding>
-            <element signature="e#2485#2492#0" expanded="true" />
-            <element signature="e#3708#3715#0" expanded="true" />
-            <marker date="1487664883710" expanded="true" signature="762:864" ph="Select * fro... student" />
-            <marker date="1487664883710" expanded="true" signature="1368:1513" ph="insert into person... " />
-            <marker date="1487664883710" expanded="true" signature="2960:3064" ph="update perso... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2098,58 +1327,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="126" column="50" lean-forward="false" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
-          <folding>
-            <element signature="e#1616#1623#0" expanded="true" />
-            <element signature="e#4841#4852#0" expanded="true" />
-            <element signature="e#4943#4950#0" expanded="true" />
-            <element signature="e#5040#5047#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="697">
           <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
-          <folding>
-            <element signature="e#2193#2203#0" expanded="true" />
-            <element signature="e#2318#2330#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/PhoneDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="697">
           <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding>
-            <element signature="e#502#509#0" expanded="true" />
-            <element signature="e#1860#1867#0" expanded="true" />
-            <marker date="1487664941925" expanded="true" signature="640:729" ph="SELECT * FRO... phone" />
-            <marker date="1487664941925" expanded="true" signature="1300:1348" ph="SELECT * FRO... phone" />
-            <marker date="1487664941925" expanded="true" signature="1998:2037" ph="SELECT * FRO... phone" />
-            <marker date="1487664941925" expanded="true" signature="2680:2745" ph="insert into phone... " />
-            <marker date="1487664941925" expanded="true" signature="3367:3432" ph="update phone... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/addStudentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="0">
           <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
-          <folding>
-            <element signature="e#1821#1828#0" expanded="true" />
-            <element signature="e#4018#4029#0" expanded="true" />
-            <element signature="e#4119#4126#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="292" lean-forward="false" selection-start-line="15" selection-start-column="292" selection-end-line="15" selection-end-column="292" />
           <folding />
         </state>
       </provider>
